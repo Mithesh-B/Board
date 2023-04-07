@@ -1,0 +1,127 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    height: 11.8125rem;
+    width: 69.44vw;
+    margin-top: 3.75rem;
+   
+
+    .top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .top_search{
+            display: flex;
+    
+            h2{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+            }
+        
+          
+        }
+        .profile{
+            display: flex;
+            flex-direction: row;
+            gap: 1.875rem;
+            align-items: center;
+
+            .searchlogo{
+                position: relative;
+
+                .searchIcon{
+                    position: absolute;
+                    left: 9.5rem;
+                    top: 0.5rem;
+                }
+            }
+    
+            input{
+                background-color: rgb(255, 255, 255);
+                border: hidden;
+                height: 1.875rem;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                width: 11.25rem;
+                padding-left: 0.9375rem;
+                border-radius: 0.625rem;
+                outline: none;
+                color: #B0B0B0;
+                padding-right: 2.5rem;
+                ;
+    
+            }
+            .bell{
+                height: 1.25rem;
+            }
+    
+            .profilePic{
+                border-radius: 50%;
+          
+            }
+        }
+    }
+
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .card1,.card2,.card3,.card4{
+            margin-top: 2.4375rem;
+            height: 7.5rem;
+            width: 13.815625rem;
+            border-radius: 1.25rem;
+            .icon{
+                display: flex;
+                flex-direction: row;
+                margin-top: 1.25rem;
+                margin-right: 1.5625rem;
+                justify-content: flex-end;
+            }
+
+            .card1_content,.card2_content,.card3_content,.card4_content{
+                display: flex;
+                flex-direction: column;
+                margin-left: 1.569375rem;
+                margin-top: 0.0625rem;
+
+                .revenue,.transaction,.likes,.users{
+                    margin-bottom: 0.3125rem;
+                    font-family: 'Lato', sans-serif;
+                    font-family: 400;
+                    font-size: 0.875rem;
+
+                 
+                }
+                .revenue_value,.transaction_value,.users_value,.likes_value{
+                    font-size: 1.5rem;
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 700;
+
+                };
+            }
+
+        }
+        .card1{
+            background: #DDEFE0;
+        }
+        .card2{
+            background: #F4ECDD;
+        }
+        .card3{
+            background: #EFDADA;
+
+        }
+        .card4{
+            background: #DEE0EF;
+
+        }
+    }
+
+
+}

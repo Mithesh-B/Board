@@ -1,0 +1,15 @@
+.dashboard{
+    background-color: #DDDDDD;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+    .left{
+        margin-left: 2.77%;
+    }
+
+    .right{
+        margin-left: 4.16%;
+        margin-right: 2.77%;
+    }
+}

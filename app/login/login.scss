@@ -1,0 +1,135 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 24.0625rem;
+
+    .heading{
+        display: flex;
+        flex-direction: column;
+    
+        h1{
+            font-size: 2.25rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            margin-bottom: 0.3125rem;
+        }
+        h3{
+            font-family: 'Lato', sans-serif;
+            font-weight: 400 ;
+            font-size: 1rem;
+            margin-bottom: 1.625rem;
+        }
+    
+    }
+    .google_apple{
+        overflow: unset;
+        width: 24.0625rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+
+        .google{
+            border: none;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: white;
+            width: 11.25rem;
+            height: 1.875rem;
+            border-radius: 0.625rem;
+        }
+        .google:hover{
+            background-color: rgb(238, 238, 238);
+        }
+        .apple{
+            border: none;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: white;
+            width: 11.25rem;  
+            height: 1.875rem;
+            border-radius: 0.625rem;
+        }
+  
+    }
+
+    .signup{
+        width: inherit;
+        height: 19.8125rem;
+        background-color: white;
+        margin-top: 1.5625rem;
+        border-radius: 1.25rem;
+        display: flex;
+        justify-content: center;
+
+        form{
+            font-family: 'Lato', sans-serif;
+            font-weight: 400 ;
+            font-size: 1rem;
+            margin-top: 1.875rem;
+            display: flex;
+            flex-direction: column;
+            width: 20.3125rem;
+
+            label{
+                gap: 0.625rem;
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 1.25rem;
+
+                input{
+                    height: 2.5rem;
+                    border-radius: 0.625rem;
+                    background-color: #EAEAEA;
+                    border: hidden;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 400 ;
+                    padding-left: 0.9375rem;
+                    font-size: 1rem;
+                }
+            }
+
+            .forgot_password{
+                color:#346BD4;
+                margin-bottom: 1.25rem;
+                
+            }
+            button{
+                background-color: black;
+                color: white;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 700;
+                border: hidden;
+                height: 2.5rem;
+                border-radius: 0.625rem;
+            }
+        }
+
+    }
+
+    .register{
+        font-family: 'Lato', sans-serif;
+        font-weight: 400 ;
+        display: flex;
+        justify-content: center;
+        color: #858585;
+        width: 24.0625rem;
+        margin-top: 1.25rem;
+
+        span{
+            color: #346BD4;
+            white-space:pre;
+        }
+    }
+
+}   

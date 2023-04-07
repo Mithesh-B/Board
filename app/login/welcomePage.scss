@@ -1,0 +1,31 @@
+.welcome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40.84%;
+        height: 100vh;
+        left: 0px;
+        top: 0px;
+        background-color: black;
+
+        .logo{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 72px;
+        }
+    }
+
+    .right{
+        background-color: #F5F5F5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 59.16%
+    }
+}

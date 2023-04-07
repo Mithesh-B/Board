@@ -1,0 +1,67 @@
+.graph{
+    background-color: rgb(255, 255, 255);
+    width: 69.44vw;
+    height: 22.4375rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 1.25rem;
+
+    .activities{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding-top: 1.875rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+
+        .graph_title{
+            font-size: 1.125rem;
+            margin-bottom: 0.3125rem;
+        }
+
+        .chart_subname{
+            display: flex;
+            font-size: 0.875rem;
+            font-weight: 400;
+            color: #858585;
+            align-items: center;
+            justify-content: space-between;
+
+            div{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+
+                img{
+                    margin-left: 0.3125rem;
+                }
+            
+            }
+            .graph_left{
+                color: #000000;
+                margin-right: 3.75rem;
+                font-family: 'Lato', sans-serif;
+                font-weight: 400;
+                font-size: 0.875rem;
+
+                .graph_left1,.graph_left2{
+                   gap: 0.6875rem;
+                }
+
+                .graph_left2{
+                    margin-left: 2.1875rem;
+                }
+                
+
+            }
+            
+        }
+
+        .line{
+            width: 100%;
+            height: 13.25rem;
+            padding-right: 2.5rem;
+            margin-top: 1.9375rem;
+        }
+    }
+}
