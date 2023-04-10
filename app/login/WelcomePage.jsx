@@ -3,14 +3,14 @@ import React from 'react'
 import './welcomePage.scss'
 import Login from './Login'
 
-const WelcomePage = ({onLogin}) => {
+const WelcomePage = () => {
   return (
     <div className='welcome'>
       <div className="left">
         <h1 className='logo'>Board.</h1>
       </div>
       <div className="right">
-        <Login onlogin={onLogin}/>
+        <Login/>
       </div>
     </div>
   )

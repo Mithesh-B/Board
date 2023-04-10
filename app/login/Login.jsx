@@ -2,12 +2,11 @@
 "use client";
 import React, {useState}from 'react';
 import './login.scss'
-//nextAuth google login(broken)
-import { useSession, signIn, signOut } from "next-auth/react"
 
 
 
-const Login = ({onlogin}) => {
+
+const Login = () => {
 
   //basic login handeling
 
@@ -22,14 +21,6 @@ const Login = ({onlogin}) => {
     setPassword(event.target.value);
   };
 
-  const handleSubmit = () => {
-
-    if (email === "admin@listed" && password === "admin") {
-      onlogin(true);
-    } else {
-      setError(true);
-    }
-  };
 
 
   return (
@@ -39,7 +30,7 @@ const Login = ({onlogin}) => {
         <h3 className='signIn_text'>Sign in to your account</h3>
       </div>
         <div className='google_apple'>
-            <button onClick={()=> signIn('google')} className="google"><img src="/assets0/google.png" alt="" />  Sign in with Google</button>
+            <button className="google"><img src="/assets0/google.png" alt="" />  Sign in with Google</button>
             <button className="apple"> <img src="/assets0/apple.png" alt="" /> Sign in with Apple</button>
         </div>
         <div className="signup">
