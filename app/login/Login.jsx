@@ -24,7 +24,7 @@ const Login = ({onlogin}) => {
 
   const handleSubmit = () => {
 
-    if (email === "admin@listed" && password === "admin") {
+    if (email === "admin@xyz" && password === "admin") {
       onlogin(true);
     } else {
       setError(true);
@@ -46,11 +46,11 @@ const Login = ({onlogin}) => {
           <form onSubmit={handleSubmit}>
             <label className='email'>
             Email address
-              <input type="email" value={email} onChange={handleEmailChange} placeholder='email' />
+              <input type="email" value={email} onChange={handleEmailChange} placeholder='email: admin@xyz' />
             </label>
             <label className='password'>
             Password
-              <input type="password" value={password} onChange={handlePasswordChange} placeholder='password' />
+              <input type="password" value={password} onChange={handlePasswordChange} placeholder='password: admin' />
             </label>
             <div className='forgot_password'>Forgot password?</div>
             <button onClick={()=>handleSubmit()} type="submit">Sign In</button>
