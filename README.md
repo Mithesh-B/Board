@@ -17,5 +17,5 @@ information.
 - Axios
 
 ## Installation
-You can use Safe Walk directly from the live preview. No installation is required. https://board-ochre.vercel.app/
+You can use Board directly from the live preview. No installation is required. https://board-ochre.vercel.app/
 
