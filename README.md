@@ -9,9 +9,9 @@ information.
 - Designed interactive line and pie charts and a dashboard which displays real-time data fetched from an API.
 
 ## Technologies Used
--React
--Next.js
--SCSS
--Chart.js
--Axios
+- React
+- Next.js
+- SCSS
+- Chart.js
+- Axios
 
